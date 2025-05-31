@@ -53,3 +53,36 @@ footer {
     margin: 0 10px;
     text-decoration: none;
 }
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.presentacion img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.viajes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.viaje {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.viaje img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
