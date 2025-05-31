@@ -86,3 +86,16 @@ footer {
     object-fit: cover;
     border-radius: 5px;
 }
+
+.dia {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.dia img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
